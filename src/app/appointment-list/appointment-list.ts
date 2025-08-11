@@ -8,6 +8,10 @@ import { Appointment } from '../models/appointment';
   styleUrl: './appointment-list.css'
 })
 export class AppointmentList {
-  appointment: string = "Take cat for a walk";
+  appointment: Appointment = {
+    id: 1,
+    title: "Take cat for a walk",
+    date: new Date('2023-02-14')
+  };
 
 }
