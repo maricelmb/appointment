@@ -6,7 +6,7 @@ import { AppointmentList } from './appointment-list/appointment-list';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ AppointmentList],
+  imports: [AppointmentList],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
